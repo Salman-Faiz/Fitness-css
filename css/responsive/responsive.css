@@ -1,0 +1,17 @@
+@media screen and (max-width:576px) {
+    * {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    /* naBar start here */
+    .navBars {
+        display: none;
+    }
+
+    .hamBurger {
+        display: block;
+    }
+
+    /* navbar ends here */
+}
