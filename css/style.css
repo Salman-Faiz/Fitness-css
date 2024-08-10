@@ -122,3 +122,59 @@
     padding: 10px 25px;
     border-radius: 20px;
 }
+
+.bannerImageContainer {
+    position: relative;
+}
+
+.btnWorkOutVideos {
+    background-color: rgba(0, 0, 0, 0.322);
+    padding: 10px 10px;
+    text-align: center;
+    width: 200px;
+    border-radius: 10px;
+    position: absolute;
+    top: 25%;
+    left: 65%;
+    backdrop-filter: blur(10px);
+
+}
+
+.workoutNumbers {
+    font-size: 3rem;
+}
+
+.btnVideos {
+    background-color: rgba(0, 0, 0, 0.322);
+    padding: 10px 10px;
+    text-align: center;
+    width: 200px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 15%;
+    right: 80%;
+    backdrop-filter: blur(10px);
+
+
+}
+
+.circle {
+    height: 40px;
+    width: 40px;
+    background-color: orange;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 5px;
+    font-size: 18px;
+}
+
+.circleAdjust {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.videoTitle {
+    font-size: 3rem;
+}
