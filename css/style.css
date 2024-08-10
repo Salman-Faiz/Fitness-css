@@ -11,9 +11,9 @@
 }
 
 .bodyContainer {
-    /* background-color: rgb(185, 185, 185); */
-    /* background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%); */
     background-color: rgb(17, 17, 17);
+    /* background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%); */
+    /*  */
 
 }
 
@@ -34,7 +34,7 @@
 }
 
 .title {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .navBars {
@@ -42,6 +42,7 @@
     border: 1px solid gray;
     padding-right: 10px;
     border-radius: 20px;
+    gap: 10px;
 
 }
 
@@ -74,3 +75,50 @@
 }
 
 /* navbar ends here */
+
+
+
+/* banner part starts from here */
+.bannerContainer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+}
+
+.mainTitle {
+    font-size: 5rem;
+    padding-top: 1.5rem;
+}
+
+#shapeSpan {
+
+    font-family: cursive;
+    font-style: italic;
+    font-weight: 100;
+
+}
+
+.bannerDescription {
+    padding: 1.5rem 0;
+    color: rgba(255, 255, 255, 0.5);
+    ;
+}
+
+.btnWrapper {
+    display: flex;
+    gap: 1rem;
+}
+
+.btnJoinClub {
+    font-size: 1.5rem;
+    background-color: orange;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+
+.btnDownload {
+    font-size: 1.5rem;
+    border: 1px solid white;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
