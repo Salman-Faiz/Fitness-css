@@ -102,7 +102,8 @@
 .bannerDescription {
     padding: 1.5rem 0;
     color: rgba(255, 255, 255, 0.5);
-    ;
+    font-size: 18px;
+    line-height: 24px;
 }
 
 .btnWrapper {
@@ -147,7 +148,7 @@
 
 .workOutTitle,
 .videoTitle {
-    color: gray;
+    color: rgba(255, 255, 255, 0.5);
     padding: 5px 5px;
 }
 
@@ -191,7 +192,7 @@
 /* Change Habit section start from here */
 .changeHabitContainer {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 80px;
 }
 
 .habitTitle {
@@ -199,9 +200,10 @@
 }
 
 .habitDescription {
-    color: gray;
+    color: rgba(255, 255, 255, 0.5);
     padding-top: 15px;
     padding-bottom: 40px;
+    font-size: 1.2rem;
 }
 
 .habitImageContainer {
@@ -225,9 +227,50 @@
 }
 
 .habitTypesDes {
-    color: gray;
+    color: rgba(255, 255, 255, 0.5);
     font-size: 18px;
     line-height: 24px;
 }
 
 /* Change Habit section Ends here*/
+
+/* Running an extra mile start here */
+.runningContainer {
+    display: flex;
+    margin-top: 80px;
+    padding: 35px;
+    justify-content: space-between;
+    gap: 200px;
+    background-color: rgba(128, 128, 128, 0.582);
+    border-radius: 20px;
+
+
+}
+
+.runningTitle {
+    font-size: 3rem;
+}
+
+.runningDes {
+    color: rgba(255, 255, 255, 0.5);
+    padding: 15px 0;
+    line-height: 24px;
+    font-size: 18px
+}
+
+.btnJoin {
+    background-color: orange;
+    width: 150px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.runningImage {
+    border-radius: 15px;
+    height: 400px;
+}
+
+/* Running an extra mile Ends here */
