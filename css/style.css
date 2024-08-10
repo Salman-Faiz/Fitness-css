@@ -11,9 +11,10 @@
 }
 
 .bodyContainer {
-    background-color: rgb(17, 17, 17);
-    /* background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%); */
-    /*  */
+
+
+    background-image: linear-gradient(180.00deg, black, rgba(0, 0, 0, 0.815) 100%);
+    ;
 
 }
 
@@ -128,7 +129,7 @@
 }
 
 .btnWorkOutVideos {
-    background-color: rgba(0, 0, 0, 0.322);
+    background-color: rgba(128, 128, 128, 0.144);
     padding: 10px 10px;
     text-align: center;
     width: 200px;
@@ -144,8 +145,14 @@
     font-size: 3rem;
 }
 
+.workOutTitle,
+.videoTitle {
+    color: gray;
+    padding: 5px 5px;
+}
+
 .btnVideos {
-    background-color: rgba(0, 0, 0, 0.322);
+    background-color: rgba(128, 128, 128, 0.144);
     padding: 10px 10px;
     text-align: center;
     width: 200px;
@@ -175,6 +182,52 @@
     align-items: center;
 }
 
-.videoTitle {
+.videosNumber {
     font-size: 3rem;
 }
+
+/* banner part Ends here */
+
+/* Change Habit section start from here */
+.changeHabitContainer {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.habitTitle {
+    font-size: 3rem;
+}
+
+.habitDescription {
+    color: gray;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+.habitImageContainer {
+    display: flex;
+    gap: 40px;
+}
+
+.habitTypes {
+    text-align: center;
+
+}
+
+
+.habitImage {
+    border-radius: 50%;
+}
+
+.habitTypesTitle {
+    padding: 15px 0;
+    font-size: 24px;
+}
+
+.habitTypesDes {
+    color: gray;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+/* Change Habit section Ends here*/

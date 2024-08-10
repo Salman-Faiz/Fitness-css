@@ -21,6 +21,11 @@
     /* navbar ends here */
 
     /* Banner part starts from here */
+    /*  */
+    .bannerImageContainer {
+        padding-top: 50px;
+    }
+
     .bannerContainer {
         flex-direction: column;
     }
@@ -39,11 +44,16 @@
 
     .btnWorkOutVideos {
         left: 50%;
-        top: 10%;
+        top: 20%;
     }
 
     .btnVideos {
         left: 10%;
-        bottom: 45%;
+        bottom: 40%;
+    }
+
+    /* change your Habit section start from here */
+    .habitImageContainer {
+        flex-direction: column;
     }
 }
