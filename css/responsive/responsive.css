@@ -128,3 +128,8 @@
     .TeamPhotos {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    /* footer */
+    .FooterContainer {
+        flex-direction: column;
+    }
