@@ -63,8 +63,23 @@
 
     }
 
+
+
     .runningDes {
         font-size: 24px;
     }
+
+    .btnJoin {
+        text-align: center;
+        width: auto;
+        margin-bottom: 0px;
+    }
+
+    .runningImageDiv {
+        margin-top: 0px;
+        padding: 25px;
+    }
+
+    /* running section Ends here */
 
 }

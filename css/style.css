@@ -267,6 +267,7 @@
     border-radius: 100px;
     margin-top: 20px;
     font-size: 1.5rem;
+    width: 180px;
 }
 
 .runningImage {
@@ -278,3 +279,116 @@
 }
 
 /* Running an extra mile Ends here */
+
+/* BMI calculator section Start from here */
+.bmiHeading {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.bmiHeading h1 {
+    font-size: 3rem;
+}
+
+.bmiHeading p {
+    font-size: 20px;
+}
+
+.BMIContainer {
+    background-color: rgba(128, 128, 128, 0.274);
+    padding-top: 50px;
+
+}
+
+.calculateBMI {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 50px;
+
+}
+
+.BMItable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0;
+    font-size: 20px;
+
+}
+
+.BMItable th,
+.BMItable td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+    color: gray;
+
+}
+
+.BMItable th {
+    font-weight: bold;
+    color: white;
+
+}
+
+.bmiForm {
+    margin: 40px 0;
+}
+
+.bmiDes {
+    padding-top: 20px;
+}
+
+.inputField {
+    background-color: rgba(128, 128, 128, 0.219);
+    font-size: 20px;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    color: gray;
+}
+
+.inputFieldWrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+
+}
+
+#gender {
+    background-color: rgba(128, 128, 128, 0.219);
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    color: gray;
+}
+
+.defaultText {
+    color: gray;
+
+}
+
+#activityInput {
+    background-color: rgba(128, 128, 128, 0.219);
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 10px;
+    color: gray;
+    width: 800px;
+
+
+}
+
+.btnCalculate {
+    border: none;
+    background-color: orange;
+    padding: 10px 30px;
+    border-radius: 100px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    width: 180px;
+}
