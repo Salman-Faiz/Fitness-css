@@ -123,3 +123,8 @@
     .btnCalculate {
         margin-left: 10px;
     }
+
+    /* meet our team start */
+    .TeamPhotos {
+        grid-template-columns: repeat(1, 1fr);
+    }

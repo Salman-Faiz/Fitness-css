@@ -402,3 +402,49 @@
     font-size: 1.5rem;
     width: 180px;
 }
+
+/* BMI calculator section Ends here */
+/* Meet Our Team section start */
+.meetOurTeamHead {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.meetOurTeamHead h2 {
+    font-size: 3rem;
+
+}
+
+.meetOurTeamHead p {
+    font-size: 20px;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    color: gray;
+}
+
+.TeamPhotos {
+    background-color: rgba(128, 128, 128, 0.219);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    border-radius: 15px;
+
+}
+
+.trainerImage {
+    position: relative;
+
+}
+
+.trainerName {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.TrainerIMG {
+    border-radius: 15px;
+}
