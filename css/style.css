@@ -13,7 +13,7 @@
 .bodyContainer {
 
 
-    background-image: linear-gradient(180.00deg, rgba(0, 0, 0, 0.815), black 100%);
+    background-image: linear-gradient(180.00deg, rgb(0, 0, 0), rgba(0, 0, 0, 0.808) 100%);
     ;
 
 }
@@ -43,7 +43,7 @@
     border: 1px solid gray;
     padding-right: 10px;
     border-radius: 20px;
-    gap: 10px;
+    gap: 30px;
 
 }
 
@@ -54,7 +54,7 @@
     padding-bottom: 3px;
     padding-left: 6px;
     padding-right: 6px;
-    background-color: rgb(17, 17, 17);
+
 }
 
 #navBar1 {
