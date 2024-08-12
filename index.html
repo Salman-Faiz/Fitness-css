@@ -127,11 +127,14 @@
             </div>
         </div>
         <!-- Running an extra mile section Ends here -->
+
+
         <!-- BMI Calculator section Start -->
         <div class="bmiHeading">
-            <h1>BMI calculator</h1>
-            <p>A BMI calculator quickly assesses body fat by calculating the Body Mass Index based on height and weight.
-                It's a simple tool to help gauge a healthy weight range.</p>
+            <h1>BMI Calculator</h1>
+            <p>A BMI calculator quickly assesses body fat by calculating the Body Mass Index based
+                on height and
+                weight.It's a simple tool to help gauge a healthy weight range.</p>
         </div>
 
     </div>
@@ -167,9 +170,11 @@
                 </table>
 
             </div>
-            <div>
-                <h1>Calculate your BMI</h1>
-                <p class="bmiDes">To calculate your BMI ,you need to know your Height weight and age also</p>
+            <div class="formContainerBMI">
+                <div class="calculateBmiHead">
+                    <h1>Calculate your BMI</h1>
+                    <p class="bmiDes">To calculate your BMI ,you need to know your Height weight and age also</p>
+                </div>
                 <form class="bmiForm">
                     <div class="inputFieldWrapper">
                         <input class="inputField" type="text" placeholder="Height/cm">
@@ -185,11 +190,13 @@
                         </select>
 
                     </div>
-                    <select name="" id="activityInput">
-                        <option class="defaultText" value="" disabled selected>Select an activity factor</option>
+                    <div class="activityDiv">
+                        <select name="" id="activityInput">
+                            <option class="defaultText" value="" disabled selected>Select an activity factor</option>
 
 
-                    </select>
+                        </select>
+                    </div>
 
                     <p class="btnCalculate">Calculate</p>
 

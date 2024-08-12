@@ -82,4 +82,44 @@
 
     /* running section Ends here */
 
-}
+    /* BMI calculate section start */
+
+
+    .formContainerBMI {
+        padding: 0 10px;
+    }
+
+    .calculateBmiHead {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .calculateBMI {
+
+        display: flex;
+        flex-direction: column;
+
+
+
+    }
+
+
+
+    .inputFieldWrapper {
+
+        padding: 0 10px;
+
+    }
+
+    .activityDiv {
+        padding: 0 10px;
+    }
+
+
+    #gender {
+        width: 200px;
+    }
+
+    .btnCalculate {
+        margin-left: 10px;
+    }
