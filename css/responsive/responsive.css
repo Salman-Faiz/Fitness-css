@@ -80,6 +80,21 @@
         padding: 25px;
     }
 
+    .runningImage {
+        border-radius: 20px;
+        width: 100%;
+        display: block;
+
+    }
+
+    .runningImage2 {
+        border-radius: 20px;
+        width: 100%;
+        display: none;
+
+
+    }
+
     /* running section Ends here */
 
     /* BMI calculate section start */

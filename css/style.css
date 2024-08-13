@@ -275,6 +275,14 @@
 .runningImage {
     border-radius: 20px;
     width: 100%;
+    display: none;
+}
+
+.runningImage2 {
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px;
+
 }
 
 .runningImageDiv {
