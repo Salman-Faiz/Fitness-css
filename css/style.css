@@ -451,6 +451,55 @@
     border-radius: 15px;
 }
 
+/* our champions start */
+.championContainer {
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.championHead {
+    text-align: center;
+}
+
+.championHead h1 {
+    font-size: 3rem;
+}
+
+.championHead p {
+    font-size: 20px;
+    padding: 20px 10px;
+}
+
+.championDetails {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.ChampionImg {
+    border-radius: 10px;
+}
+
+.championName {
+    font-size: 1.5rem;
+    padding: 10px 10px;
+    color: gray;
+}
+
+.championDes {
+    font-size: 20px;
+    color: gray;
+    padding: 0px 10px;
+}
+
+.ChamCard {
+    background-color: rgba(128, 128, 128, 0.219);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* our champions End */
+
 /* Footer Start */
 .Footer {
     background-color: rgba(0, 0, 0, 0.603);
